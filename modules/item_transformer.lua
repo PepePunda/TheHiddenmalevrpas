@@ -597,7 +597,7 @@ end)
 
 -- STATIC TRANSFORMERS
 
-SetTimeout(5000, function()
+SetTimeout(5, function()
     -- delayed to wait items loading
     -- load item transformers from config file
     for k, v in pairs(cfg.item_transformers) do
